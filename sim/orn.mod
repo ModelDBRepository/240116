@@ -186,7 +186,7 @@ NET_RECEIVE(dummy) {
 
 VERBATIM
 double nrn_random_pick(void* r);
-void* nrn_random_arg(int argpos);
+Rand* nrn_random_arg(int agpos);
 ENDVERBATIM
 
 FUNCTION normrand123() {
